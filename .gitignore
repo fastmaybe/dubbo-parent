@@ -1,0 +1,5 @@
+# Project exclude paths
+/app-user-provider1/target/
+/app-user-provider2/target/
+/dubbo-app-admin/target/
+/dubbo-app-api/target/

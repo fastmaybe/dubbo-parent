@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app-user-comsumer" />
+        <module name="dubbo-app-api" />
+        <module name="app-user-provider2" />
+        <module name="app-user-provider1" />
+        <module name="dubbo-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-app-admin" target="1.8" />
+      <module name="dubbo-monitor" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app-user-comsumer" options="" />
+      <module name="app-user-provider1" options="" />
+      <module name="app-user-provider2" options="" />
+      <module name="dubbo-admin" options="-parameters" />
+      <module name="dubbo-app-admin" options="-parameters" />
+      <module name="dubbo-app-api" options="" />
+    </option>
+  </component>
+</project>

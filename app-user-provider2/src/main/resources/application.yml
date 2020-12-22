@@ -1,0 +1,19 @@
+dubbo:
+  application:
+    name: user-provider
+    version: 1.0.0
+    logger: log4j2
+  registry:
+    address: www.dubbo.local:2181
+    protocol: zookeeper
+  protocol:
+    port: 20881
+    name: dubbo
+  monitor:
+    protocol: registry
+  provider:
+    timeout: 3000
+    version: 1.0.0
+
+
+
