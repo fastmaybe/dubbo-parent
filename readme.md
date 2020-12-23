@@ -19,4 +19,7 @@ Dubbo官网：http://dubbo.apache.org/ 官网讲的比较全
 ###dubbo扩展（dubbo提供了spi扩展机制）
 http://dubbo.apache.org/zh/docs/v2.7/dev/impls/exporter-listener/
     - 关于默认filter  https://www.jianshu.com/p/c5ebe3e08161
+    
+    
+#### dubbo 属性配置建议 provider提供 
 

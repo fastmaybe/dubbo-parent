@@ -1,0 +1,21 @@
+dubbo:
+  application:
+    name: user-comsumer
+#    version: 1.0.0
+#    logger: log4j2
+  registry:
+    address: zookeeper://127.0.0.1:2181
+#  protocol:
+#    port: 21881
+#    name: dubbo
+  monitor:
+    protocol: registry
+
+
+---
+server:
+  port: 8088
+
+
+
+

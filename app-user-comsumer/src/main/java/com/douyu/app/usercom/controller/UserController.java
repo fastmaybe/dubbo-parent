@@ -1,7 +1,7 @@
 package com.douyu.app.usercom.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.douyu.app.api.service.IUserService;
-import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    @DubboReference
+    @Reference
     private IUserService userService;
 
     @GetMapping("/all")
